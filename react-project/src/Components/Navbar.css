@@ -1,0 +1,72 @@
+.Container{
+    border: 1px solid;
+    display: flex;
+    height: calc(3.5rem-2px);
+    background-color: rgb(33, 33, 33);
+    justify-content: space-between;
+}
+.Logo-Navbar{
+    display: flex;
+    height: 4.5rem;
+}
+.Menu-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    margin-left: 1.5rem;
+    margin-right: 0.7rem;
+    border-radius: 50%;
+}
+.Menu-bar p{
+    margin: 0.6px;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: rgb(255, 237, 237);
+}
+.logo-nav{
+    display: flex;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    height: 60px;
+}
+.logo-title{
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+    /* margin-left: 1rem; */
+}
+.Apps-Box{
+    width: 25px;
+    margin: auto 0.7rem;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.App-Box{
+    border: 1px solid white;
+    margin: 0.1rem;
+    width: 2px;
+    height: 2px;
+}
+.cont-navbar{
+    width: fit-content;
+    margin: auto 0.5rem;
+    position: relative;
+    display: flex;
+}
+.Btn{
+    cursor: pointer;
+    color: #3ea6ff;
+    background-color: rgb(36, 36, 36);
+    border: 2px solid;
+    margin: 0;
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+}

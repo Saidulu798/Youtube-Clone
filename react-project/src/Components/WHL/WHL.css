@@ -1,0 +1,40 @@
+.det{
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-around;
+}
+.box-WHL-Left-whl{
+    width: 45%;
+    padding: 0.8rem;
+    margin: 00.8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.box-WHL b{
+    font-size: 3rem;
+    color: white;
+}
+.clear-History{
+    color: grey;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto 0;
+}
+.clear-History:hover{
+    color: white;
+}
+.right-Side-whl h1{
+    text-decoration: underline;
+    color: white;
+}
+.Left-whl{
+    background-color: rgba(0,0,0,0.153);
+    height: 50vh;
+}
+.whl-list{
+    overflow-y: auto;
+}
